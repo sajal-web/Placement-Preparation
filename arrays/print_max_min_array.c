@@ -26,6 +26,7 @@ int main()
         }
     }
     printf("\nThe maximum value of the elements is: %d",max);
+   
     // now let's find out the value of minimum value of the array elements
     int min = array[0];
     for (int j = 0; j < size; j++)
