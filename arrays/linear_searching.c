@@ -33,6 +33,7 @@ int main(){
     printf("\nEnter the element you wanna know the position: ");
     scanf("%d",&element);
     int result =linearSearch(array,size,element);
+    
     if (result == -1)
     {
         printf("Element %d was not found in the array....",element);
